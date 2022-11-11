@@ -110,38 +110,41 @@ namespace Learn_ModernUI_Winform
         private void btnTimTheoTen_Click(object sender, EventArgs e)
         {
             setDefaultButtonColorExceptSub(btnTimTheoTen);
-            FormTimTheoTen f = new FormTimTheoTen();
-            loadForm(f);
-            
-            
+            setDefaultButtonColorExceptMain(btnTimSV);
+            loadForm(new FormTimTheoTen());
         }
 
         private void btnTimTheoMSSV_Click(object sender, EventArgs e)
         {
             setDefaultButtonColorExceptSub(btnTimTheoMSSV);
+            setDefaultButtonColorExceptMain(btnTimSV);
             loadForm(new FormTimTheoMSSV());
         }
         private void btnTimTheoDTB_Click(object sender, EventArgs e)
         {
             setDefaultButtonColorExceptSub(btnTimTheoDTB);
+            setDefaultButtonColorExceptMain(btnTimSV);
             loadForm(new FormTimTheoDTB());
         }
 
         private void btnXoaTheoTen_Click(object sender, EventArgs e)
         {
             setDefaultButtonColorExceptSub(btnXoaTheoTen);
+            setDefaultButtonColorExceptMain(btnXoaSV);
             loadForm(new FormXoaTheoTen());
         }
 
         private void btnXoaTheoMSSV_Click(object sender, EventArgs e)
         {
             setDefaultButtonColorExceptSub(btnXoaTheoMSSV);
+            setDefaultButtonColorExceptMain(btnXoaSV);
             loadForm(new FormXoaTheoMSSV());
         }
 
         private void btnXoaTheoDTB_Click(object sender, EventArgs e)
         {
             setDefaultButtonColorExceptSub(btnXoaTheoDTB);
+            setDefaultButtonColorExceptMain(btnXoaSV);
             loadForm(new FormXoaTheoDTB());
         }
 

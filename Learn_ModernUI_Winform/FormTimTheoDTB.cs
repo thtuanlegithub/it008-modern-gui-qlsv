@@ -35,6 +35,7 @@ namespace Learn_ModernUI_Winform
                 DSSV.Add(_sv);
             }
             DSSV_kq = new List<SinhVien>();
+            currKQ = 0;
             // Tạo list kết quả
             bool exist = false;
             for (int i = 0; i < DSSV.Count; i++)
