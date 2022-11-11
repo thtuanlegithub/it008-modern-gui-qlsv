@@ -16,6 +16,7 @@ namespace Learn_ModernUI_Winform
         public FormTimTheoDTB()
         {
             InitializeComponent();
+            btnNext.Visible = false;
         }
         static private List<SinhVien> DSSV_kq = new List<SinhVien>();
         static int currKQ = 0;
@@ -46,10 +47,11 @@ namespace Learn_ModernUI_Winform
             }
             if (exist)
             {
-                this.setTextHoTen(DSSV_kq[0].HoTen);
-                this.setTextMSSV(DSSV_kq[0].MSSV);
-                this.setTextDTB(DSSV_kq[0].DTB);
-                this.setTextMaLop(DSSV_kq[0].MaLop);
+                setSinhVienHienTai(DSSV_kq[0]);
+                if (DSSV_kq.Count > 1)
+                {
+                    btnNext.Visible = true;
+                }
             }
             else
             {
