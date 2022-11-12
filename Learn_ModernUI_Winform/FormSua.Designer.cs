@@ -64,10 +64,10 @@
             this.panel1.Controls.Add(this.labelHoTen);
             this.panel1.Controls.Add(this.labelThongTinSinhVien);
             this.panel1.Controls.Add(this.pictureBoxAnhSV);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 72);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(711, 405);
+            this.panel1.Size = new System.Drawing.Size(711, 404);
             this.panel1.TabIndex = 7;
             // 
             // btnSua

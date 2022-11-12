@@ -33,6 +33,7 @@
             this.textBoxFind = new System.Windows.Forms.TextBox();
             this.btnTimTheoTen = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBoxAnhSV = new System.Windows.Forms.PictureBox();
             this.btnNext = new System.Windows.Forms.Button();
             this.labelDTB = new System.Windows.Forms.Label();
             this.labelLop = new System.Windows.Forms.Label();
@@ -44,10 +45,9 @@
             this.labelHoTen = new System.Windows.Forms.Label();
             this.labelThongTinSinhVien = new System.Windows.Forms.Label();
             this.panelTitleChildFormTimTheoTen = new System.Windows.Forms.Panel();
-            this.pictureBoxAnhSV = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panelTitleChildFormTimTheoTen.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhSV)).BeginInit();
+            this.panelTitleChildFormTimTheoTen.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelNhapTen
@@ -106,6 +106,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(711, 404);
             this.panel1.TabIndex = 3;
+            // 
+            // pictureBoxAnhSV
+            // 
+            this.pictureBoxAnhSV.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxAnhSV.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAnhSV.Image")));
+            this.pictureBoxAnhSV.Location = new System.Drawing.Point(27, 48);
+            this.pictureBoxAnhSV.Name = "pictureBoxAnhSV";
+            this.pictureBoxAnhSV.Size = new System.Drawing.Size(187, 223);
+            this.pictureBoxAnhSV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxAnhSV.TabIndex = 8;
+            this.pictureBoxAnhSV.TabStop = false;
             // 
             // btnNext
             // 
@@ -238,17 +249,6 @@
             this.panelTitleChildFormTimTheoTen.Size = new System.Drawing.Size(711, 77);
             this.panelTitleChildFormTimTheoTen.TabIndex = 4;
             // 
-            // pictureBoxAnhSV
-            // 
-            this.pictureBoxAnhSV.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxAnhSV.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAnhSV.Image")));
-            this.pictureBoxAnhSV.Location = new System.Drawing.Point(27, 48);
-            this.pictureBoxAnhSV.Name = "pictureBoxAnhSV";
-            this.pictureBoxAnhSV.Size = new System.Drawing.Size(187, 223);
-            this.pictureBoxAnhSV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxAnhSV.TabIndex = 8;
-            this.pictureBoxAnhSV.TabStop = false;
-            // 
             // FormTimTheoTen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -263,9 +263,9 @@
             this.Text = "FormTimTheoTen";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhSV)).EndInit();
             this.panelTitleChildFormTimTheoTen.ResumeLayout(false);
             this.panelTitleChildFormTimTheoTen.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAnhSV)).EndInit();
             this.ResumeLayout(false);
 
         }

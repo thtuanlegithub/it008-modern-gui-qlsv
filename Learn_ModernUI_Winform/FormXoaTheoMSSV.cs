@@ -70,6 +70,7 @@ namespace Learn_ModernUI_Winform
                 }
             }
             DSSV.RemoveAt(index);
+            MessageBox.Show("Xóa thành công");
             //cập nhật data vào file
             List<string> strJoinList = new List<string>();
             for (int i = 0; i < DSSV.Count; i++)
